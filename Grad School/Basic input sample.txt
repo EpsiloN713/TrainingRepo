@@ -1,0 +1,9 @@
+import sys
+
+user_inp = input('Enter a whole number: ')
+try:
+    inp_num = int(user_inp)
+    inp_num = float(user_inp)
+except:
+    print('{} is not a valid integer!' .format(user_inp))
+    sys.exit()

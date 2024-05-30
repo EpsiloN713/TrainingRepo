@@ -1,0 +1,13 @@
+LIST_SIZE = 5
+while True:
+   user_input_list = input('Enter {0} numbers separated by commas: '.
+                            format(LIST_SIZE)).split(',')
+   if len(user_input_list) != LIST_SIZE :
+      print('You did not enter {0} items separated by commas'.format(LIST_SIZE))
+      next
+   try:
+      for x in range(LIST_SIZE):
+         user_input_list [x] = float(user_input_list [x])
+      break
+   except:
+      print('{0} is not a float. Please try again'.format(x))

@@ -1,0 +1,4 @@
+Number of Possible Hosts for Class: 16,777,214
+Number of Possible Hosts for Class: 65,534
+Number of Possible Hosts for Class: 254
+No Hosts Available to use
